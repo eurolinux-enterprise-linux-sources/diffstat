@@ -1,7 +1,7 @@
 Summary: A utility which provides statistics based on the output of diff
 Name: diffstat
 Version: 1.57
-Release: 2%{?dist}
+Release: 4%{?dist}
 Group: Development/Tools
 License: MIT
 URL: http://invisible-island.net/diffstat
@@ -45,6 +45,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.57-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.57-3
+- Mass rebuild 2013-12-27
+
 * Thu Jul  4 2013 Tim Waugh <twaugh@redhat.com> - 1.57-2
 - Updated COPYING to reflect copyright dates in source.
 
